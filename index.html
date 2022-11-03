@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" defer src="script.js"></script>
+    <title>Pokeball Clicker</title>
+</head>
+<body>
+    <div class="column-container">
+        <div class="column">
+            <div class="container left">
+                <div class="counter-container">Pokemon Caught:
+                    <span id="pokemon-counter">0</span>
+                </div>
+                <div id="pokeballClicker">
+                    <img class="pokeball" src="images/pokeball.png" alt="pokeball" width="250" height="250"/>
+                </div>
+                <div class ="cpb-container">Catches/Battle: 
+                    <span id="cpb-counter">0</span>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="container right" id="upgrade_container">
+                <div class="upgrade-header">POKEBALL UPGRADES</div>
+                <div class="upgrade">
+                    <div class="upgrade-column">
+                        <div class="upgrade-name">Great Ball</div>
+                        <button type="button" id="buy_greatball">Buy</button>
+                    </div>
+                    <div class="upgrade-column">
+                        <!--<div>Level: 0</div>-->
+                        <div>Catches/Battle: 2</div>
+                        <div>Price: 10 Pokemon</div>
+                    </div>
+                    <div class="upgrade-column">
+                        <img class ="greatball" src="images/greatball.png" width="100" height="100">
+                    </div>
+                </div>
+                <div class="upgrade">
+                    <div class="upgrade-column">
+                        <div class="upgrade-name">Ultra Ball</div>
+                        <button type="button" id="buy_ultraball">Buy</button>
+                    </div>
+                    <div class="upgrade-column">
+                        <!--<div>Level: 0</div>-->
+                        <div>Catches/Battle: 5</div>
+                        <div>Price: 50 Pokemon</div>
+                    </div>
+                    <div class="upgrade-column">
+                        <img class ="ultraball" src="images/ultraball.png" width="100" height="100">
+                    </div>
+                </div>
+                <div class="upgrade">
+                    <div class="upgrade-column">
+                        <div class="upgrade-name">Master Ball</div>
+                        <button type="button" id="buy_masterball">Buy</button>
+                    </div>
+                    <div class="upgrade-column">
+                        <!--<div>Level: 0</div>-->
+                        <div>Catches/Battle: 10</div>
+                        <div>Price: 100 Pokemon</div>
+                    </div>
+                    <div class="upgrade-column">
+                        <img class ="masterball" src="images/masterball.png" width="100" height="100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
